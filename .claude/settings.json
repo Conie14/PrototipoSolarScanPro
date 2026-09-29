@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e ' *)",
+      "Bash(\"/c/src/bin/flutter.bat\" --version)",
+      "Read(//c//**)",
+      "Bash(cmd.exe /c \"dir C:\\\\src\")",
+      "WebSearch",
+      "WebFetch(domain:commons.wikimedia.org)",
+      "Bash(curl -sL -A \"Mozilla/5.0\" -o expansion_aerea.jpg \"https://upload.wikimedia.org/wikipedia/commons/d/d4/Elroy%2C_Wisconsin_solar_farm.jpg\")",
+      "Bash(curl -sL -A \"Mozilla/5.0\" -o paneles_operativos.jpg \"https://upload.wikimedia.org/wikipedia/commons/7/71/Solar_Panel_Array.jpg\")",
+      "Bash(command -v magick)",
+      "Bash(command -v convert)"
+    ]
+  }
+}

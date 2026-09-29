@@ -1,0 +1,30 @@
+name: solarscan_pro
+description: "SolarScan Pro - prototipo de pantallas (Figma -> Flutter)"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/residencial/
+    - assets/images/industrial/
+    - assets/images/planta_solar_alpha/
+    - assets/images/tejados_sur/
+    - assets/images/planta_solar_norte/
+    - assets/images/farmacia_sector4/
+    - assets/images/valley_ridge/
+    - assets/images/documentos/
+    - assets/images/solar_farm_expansion/
